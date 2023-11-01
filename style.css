@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+h1 {
+    font-size: 2rem;
+}
+
+h1+h2 {
+    font-size: 2rem;
+    font-weight: 500;
+    word-spacing: 16px;
+}
+
+body {
+    max-width: 1460px;
+    margin: 0 auto;
+    font-family: 'Inter', sans-serif;
+    /* max-height: 100vh; */
+    background-color: #eee;
+}
+
+
+.main {
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    width: 100%;
+    background-color: #fff;
+}
+
+
+.right {
+    padding: 30px 40px 30px 80px;
+    width: 60%;
+}
+
+
+.top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    gap: 1rem;
+}
+
+.logo img {
+    height: 81.11px;
+}
+
+.list {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 15px;
+}
+
+.topList a {
+    text-decoration: none;
+    font-size: 1rem;
+    padding-left: 20px;
+    color: #1f1e1e;
+    cursor: pointer;
+}
+
+.bottomList {
+    display: flex;
+    gap: 20px;
+}
+
+.bottomList button {
+    color: #242424;
+    background-color: transparent;
+    padding: 10.14px 15.21px 10.14px 15.21px;
+    border-radius: 5px;
+    border: 1px solid #33333333;
+}
+
+.bottomList button:first-child {
+    background-color: #FB792B;
+    color: #fff;
+    border: none;
+}
+
+
+
+
+/* SLOGAN */
+
+
+.slogan {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 90px 0 70px 0;
+}
+
+.slogan h1 {
+    font-size: 3rem;
+    color: #1d1c1c;
+}
+
+/* OPTIONS */
+
+
+.fratures {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.fratures button {
+    display: flex;
+    padding: 10.139px 15.208px;
+    justify-content: center;
+    align-items: center;
+    gap: 10.139px;
+    border-radius: 5.069px;
+    border: 1.014px solid #33333380;
+    background: #fff;
+    color: #333;
+    font-size: 18.25px;
+    font-weight: 700;
+    line-height: normal;
+    cursor: pointer;
+}
+
+.fratures button:first-child {
+    border-radius: 5.069px;
+    background: #213D77;
+    color: #fff;
+}
+
+
+
+/* BOOKING */
+
+
+.booking {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 50px 0;
+    gap: 20px;
+}
+
+.destination,
+.select-class {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    border-radius: 10.139px;
+    border: 1.014px solid #3333331a;
+    background: #fff;
+    padding: 20px 25px;
+}
+
+.from,
+.to,
+.date,
+.class,
+.seat-type {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+}
+
+.destination-selection,
+.date-selection,
+.class-selection,
+.seat-selection {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    align-items: start;
+}
+
+select {
+    width: fit-content;
+    border: none;
+    outline: none;
+    color: #333;
+    margin: -3px;
+}
+
+
+
+/* SUBMIT BUTTON */
+
+.submit button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFF;
+    font-size: 25.347px;
+    font-weight: 900;
+    width: 100%;
+    background-color: #01BB0A;
+    border-radius: 10.139px;
+    height: 81.111px;
+    border: none;
+    gap: 15px;
+}
+
+
+
+
+/* LEFT */
+
+.train-image img{
+    max-height:920px;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Build a clone of the IRCTC Ticket booking page</title>
+
+
+    <!-- Font Awsome CDN -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Link external css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <section class="main">
+        <section class="right">
+            <div class="top">
+                <div class="logo">
+                    <img src="./IRCTCLogo.png" alt="logo">
+                    <img src="./indianRailwaysLogo.png" alt="logo">
+                </div>
+                <div class="list">
+                    <div class="topList">
+                        <a href="#">AskDisha</a>
+                        <a href="#">Contact us</a>
+                        <a href="#">Alerts</a>
+                    </div>
+                    <div class="bottomList">
+                        <button>Login</button>
+                        <button>Register</button>
+                        <button>Agent Login</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="slogan">
+                <h1>Indian Railways</h>
+                <h2><span style="color: #01BB0A;">Safety </span><span style="color: #FB792B;"> Security </span><span
+                        style="color: #213D77;"> Punctuality</span></h2>
+            </div>
+
+            <div class="fratures">
+                <button><img src="./ticket_icon.png" alt="ticket icon"> BOOK Ticket</button>
+                <button><img src="./tick_icon.png" alt="tick icon"> PNR Status</button>
+                <button><img src="./chart_icon.png" alt="chart icon"> Charts/Vacancy</button>
+            </div>
+
+
+            <section class="booking">
+                <div class="destination">
+                    <div class="from">
+                        <div class="from-logo">
+                            <img src="./ic-search-from-desktop.png" alt="from-logo">
+                        </div>
+                        <div class="destination-selection">
+                            <select name="from" id="places">
+                                <option value="From">From</option>
+                            </select>
+                            <h2>Bangalore</h2>
+                            <p>KSR-Bangalore</p>
+                        </div>
+                    </div>
+                    <div class="swap-from-to">
+                        <img src="./sync_alt_FILL0_wght300_GRAD0_opsz48 1.png" alt="sync-icon">
+                    </div>
+                    <div class="to">
+                        <div class="to-logo">
+                            <img src="./Group.png" alt="to-logo">
+                        </div>
+                        <div class="destination-selection">
+                            <select name="to" id="places">
+                                <option value="to">To</option>
+                            </select>
+                            <h2>Kasaragod</h2>
+                            <p>KSD-Kasaragod</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="select-class">
+                    <div class="date">
+                        <div class="date-logo">
+                            <img src="./ic-search-calender-desktop.png" alt="calender-logo">
+                        </div>
+                        <div class="date-selection">
+                            <select name="date" id="date">
+                                <option value="date">Date</option>
+                            </select>
+                            <h2> 01 Aug 23</h2>
+                            <p> Tuesday</p>
+                        </div>
+                    </div>
+                    <div class="class">
+                        <div class="class-logo">
+                            <img src="./group_work_FILL0_wght200_GRAD0_opsz48 1.png" alt="class-logo">
+                        </div>
+                        <div class="class-selection">
+                            <select name="class" id="class">
+                                <option value="class">Class</option>
+                            </select>
+                            <h2>3A</h2>
+                            <p>AC 3 Tier</p>
+                        </div>
+                    </div>
+                    <div class="seat-type">
+                        <div class="seat-logo">
+                            <img src="./widgets_FILL0_wght200_GRAD0_opsz48 1.png" alt="seat-logo">
+                        </div>
+                        <div class="seat-selection">
+                            <select name="seat" id="seat">
+                                <option value="seat">Seat Type</option>
+                            </select>
+                            <h2>TATKAL</h2>
+                            <p>AC 3 Tier</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="submit">
+                <button>Search Train <img src="./right-arrow-icon.png" alt="right-arrow"></button>
+            </section>
+
+        </section>
+
+
+
+        <!-- Left section -->
+
+
+        <section class="left">
+            <div class="train-image" >
+                <img src="./Rectangle 11.png" alt="train-image">
+            </div>
+        </section>
+    </section>
+</body>
+
+</html>
